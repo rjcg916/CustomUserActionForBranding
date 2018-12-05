@@ -1,7 +1,7 @@
 ﻿
-$credentials = Get-Credential -UserName "bob_graham@advantagesolutions.net" -Message "Enter password"
+$credentials = Get-Credential -UserName "bob@acme.net" -Message "Enter password"
       
-$fullUrl = "https://advantagesolutionsnet.sharepoint.com/sites/spyglass"
+$fullUrl = "https://acme.sharepoint.com/sites/spyglass"
 
 try {
 
