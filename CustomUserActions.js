@@ -15,6 +15,6 @@ uca2.set_location("ScriptLink");
 uca2.set_sequence(200);
 uca2.set_title("Spyglass JS");
 uca2.set_description("Adds custom JS to the site");
-uca2.set_scriptBlock("SP.SOD.registerSod('spyglass', 'https://advantagesolutionsnet.sharepoint.com/Sites/spyglass/Style Library/JS/spyglass-custom-action.js');LoadSodByKey('spyglass');");
+uca2.set_scriptBlock("SP.SOD.registerSod('spyglass', 'https://acme.sharepoint.com/Sites/spyglass/Style Library/JS/spyglass-custom-action.js');LoadSodByKey('spyglass');");
 uca2.update();
 ctx.executeQueryAsync();
