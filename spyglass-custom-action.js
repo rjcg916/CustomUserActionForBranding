@@ -8,6 +8,6 @@ function loadJavaScript(url, callback) {
     head.appendChild(script);
 }
 
-loadJavaScript("https://advantagesolutionsnet.sharepoint.com/sites/spyglass/Style%20Library/JS/spyglass.js", function() {
+loadJavaScript("https://acme.sharepoint.com/sites/spyglass/Style%20Library/JS/spyglass.js", function() {
     console.log("Spyglass Skin enabled.");
 });
