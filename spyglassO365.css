@@ -1,0 +1,143 @@
+
+*[id^='MSOZoneCell_WebPartWPQ'] {
+    padding: 10px;
+}
+
+#titlerow {
+    height: 115px;
+}
+
+.ms-belltown-authenticated .ms-belltown-searcharea {
+    padding-top: 50px;
+}
+
+#ctl00_PlaceHolderSiteName_onetidProjectPropertyTitle1 {
+    display: none;
+}
+
+.status {
+    display: inline;
+    font-size: 1.1em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #ff0000;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+#SearchBoxSPY, #SearchBoxPPL {
+    background-color: black;
+}
+
+.ms-vb2 {
+   /* width: 100%; */
+}
+
+table.ms-listviewtable {
+    padding: 5px 10px;
+}
+
+#titlerow {
+    height: 135px;
+}
+
+.menu-item-text {
+    font-size: 10px;
+}
+
+.ms-core-pageTitle {
+    line-height: 1.6em;
+}
+
+ /******************************************************************
+     Override Site Contents styles  to convert grid in a table 
+*******************************************************************/
+ 
+/* Main page viewlsts.aspx table */
+.ms-viewlsts
+{
+    width: 100%;
+}
+ 
+/* Margin betten List, Libraries, and other apps title and add an app option */
+.ms-vl-applist
+{
+    margin-top: 7px;
+}
+ 
+/* Add an app custom styles */
+#apptile-appadd
+{
+    width: 100%;
+}
+#apptile-appadd div, #apptile-appadd ms-vl-appinfo > div
+{
+    height: 30px !important;
+}
+#apptile-appadd .ms-vl-appimage, #apptile-appadd .ms-vl-appimage a
+{
+    width: 25px !important;
+    height: 25px !important;
+}
+#apptile-appadd .ms-vl-appimage img
+{
+    top: -132px;
+    left: -130px;
+}
+ 
+/* Item Title */
+.ms-vl-applist .ms-vl-apptile
+{
+    display: block;
+    min-height: 25px;
+    width: 49%;
+    float: left;
+    margin-bottom: 5px;
+}
+ 
+/* Item Image Content Type */
+.ms-vl-applist .ms-vl-appimage, .ms-vl-applist img.ms-storefront-appiconimg
+{
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    vertical-align: top;
+}
+.ms-vl-applist .ms-vl-appimage a.ms-storefront-appiconspan
+{
+    height: 25px;
+    width: 25px;
+    
+}
+ 
+/* Item Metadata - Date and Numer of Items */
+.ms-vl-applist .ms-vl-appinfo
+{
+    min-height: 25px;
+    min-width: 605px;
+    width: 95%;
+    display:-webkit-inline-box;
+    display:inline-block;
+}
+.ms-vl-applist .ms-vl-appinfo > div
+{
+   float: left;
+}
+.ms-vl-applist .ms-vl-appinfo > div:first-child
+{
+    width: 55%;
+}
+.ms-vl-applist .ms-vl-appstatus
+{
+    width: 135px;
+}
+.ms-vl-applist .ms-vl-apptitleouter
+{
+    width: 90%;
+}
+
+ 

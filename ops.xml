@@ -1,0 +1,3 @@
+<property name="Content" type="string">&lt;script&gt;
+window.location = "/sites/spyglass";
+&lt;/script&gt;</property>
