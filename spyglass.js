@@ -31,7 +31,7 @@ function skinSpyglass() {
 
   //search Spyglass
   $("#ctl00_PlaceHolderSearchArea_SmallSearchInputBox1_csr").append(
-    "<br/><div id='SearchBoxSPY'><div class='ms-srch-sb ms-srch-sb-border' id='ctl00_PlaceHolderSearchArea_SmallSearchInputBox1SPY_csr_sboxdiv'><input type='text' placeholder='Search Spyglass' maxlength='2048' accesskey='S' title='Search Spyglass' id='ctl00_PlaceHolderSearchArea_SmallSearchInputBoxSPY_csr_sbox' class='ms-textSmall ms-srch-sb-prompt ms-helperText'><a title='Search' class='ms-srch-sb-searchLink' id='ctl00_PlaceHolderSearchArea_SmallSearchInputBox1SPY_csr_SearchLink'><img src='/sites/spyglass/Style%20Library/Images/searchresultui-61174269.themedpng?ctag=16' class='ms-srch-sb-searchImg' id='searchImgSPY' alt='Search'></a></div></div>"
+    "<br/><div id='SearchBoxSPY'><div class='ms-srch-sb ms-srch-sb-border' id='ctl00_PlaceHolderSearchArea_SmallSearchInputBox1SPY_csr_sboxdiv'><input type='text' placeholder='Search Spyglass' maxlength='2048' accesskey='S' title='Search Spyglass' id='ctl00_PlaceHolderSearchArea_SmallSearchInputBoxSPY_csr_sbox' class='ms-textSmall ms-srch-sb-prompt ms-helperText'><a title='Search' class='ms-srch-sb-searchLink' id='ctl00_PlaceHolderSearchArea_SmallSearchInputBox1SPY_csr_SearchLink'><img src='/sites/spyglass/Style%20Library/Images/searchresultui.themedpng?ctag=16' class='ms-srch-sb-searchImg' id='searchImgSPY' alt='Search'></a></div></div>"
   );
   $("#searchImgSPY").click(function() {
     var keyword = $(
@@ -40,7 +40,7 @@ function skinSpyglass() {
     if (keyword) {
       //alert(keyword);
       window.location.href =
-        "/sites/spyglass/_layouts/15/osssearchresults.aspx?u=https%3A%2F%2Fadvantagesolutionsnet%2Esharepoint%2Ecom%2FSites%2Fspyglass&k=" +
+        "/sites/spyglass/_layouts/15/osssearchresults.aspx?u=https%3A%2F%2Facme%2Esharepoint%2Ecom%2FSites%2Fspyglass&k=" +
         keyword;
     }
   });
@@ -63,7 +63,7 @@ function skinSpyglass() {
     ).val();
     if (keyword) {
       //alert(keyowrd);
-      window.location.href = "https://advantagesolutionsnet.sharepoint.com/search/Pages/peopleresults.aspx?k=ANY(" +
+      window.location.href = "https://acme.sharepoint.com/search/Pages/peopleresults.aspx?k=ANY(" +
         keyword +
         ")";
     }
